@@ -24,7 +24,7 @@ sudo apt install -y manpages-ja manpages-ja-dev
 sudo LANG=ja_JP.UTF-8 apt update
 
 # Docker
-mkdir -p /etc/apt/keyrings/
+sudo mkdir -p /etc/apt/keyrings/
 sudo apt install -y ca-certificates curl gnupg lsb-release
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
