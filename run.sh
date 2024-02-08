@@ -1,4 +1,4 @@
-# for vagrant
+# ansible 
 test -z $(which ansible-playbook) && sudo apt install -y ansible
 
 # カーネルがアップグレードされた時の警告画面を表示しないようにする
@@ -36,6 +36,3 @@ sudo usermod -aG docker $USER
 # プロンプトを短く
 sed -i s/\\\\u@\\\\h\\\\\\[\\\\033\\[00m\\\\\\]:\\\\\\[\\\\033\\[01\;34m\\\\\\]\\\\w/\\\\u@\\\\h\ \\\\[\\\\033[01\;34m\\\\]\\\\W\ / ~/.bashrc
 sed -i s/\\\\u@\\\\h:\\\\w\\\\/\\\\u@\\\\h\ \\\\W\\\\\ / ~/.bashrc
-
-
-
